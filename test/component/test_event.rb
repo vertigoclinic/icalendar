@@ -221,7 +221,7 @@ EOS
   end
 
   def test_event_rule_until_info
-    assert_equals(@event.recurrence_rules[0].until, "2011-06-29T06:59:59+00:00")
+    assert_equal("2011-06-29T06:59:59+00:00", @event.recurrence_rules[0].until.to_s)
   end
 
 end
