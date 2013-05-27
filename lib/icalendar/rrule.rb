@@ -34,7 +34,7 @@ module Icalendar
       end
     end
     
-    attr_accessor :until, :count
+    attr_accessor :until
     
     def initialize(name, params, value, parser)
       @value = value
